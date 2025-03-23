@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <h2>Aplica al trabajo</h2>
+
+    <form action="">
+        <label for="nombre">Ingresa el nombre</label>
+        <input type="text" placeholder="Nombre" maxlength="10" required id="nombre">
+        <br>
+        <br>
+
+        <label for="apellido">Ingresa el apellido</label>
+        <input type="text" placeholder="Apellido" minlength="5" required id="apellido">
+        <br>
+        <br>
+
+        <label for="apellido">Ingresa el email</label>
+        <input type="email" placeholder="email" required id="apellido">
+        <br>
+        <br>
+
+<h3>Elige tu pais</h3>
+
+        <select >
+            <option value="NO">SELECCIONAR PAIS</option>
+            <option value="CO">Colombia</option>
+            <option value="PE">Peru</option>
+            <option value="MX">Mexico</option>
+        </select>
+
+        <h3>Elige el horario</h3>
+        <label for="">
+            <input type="radio" name="horario">Matutino
+            <input type="radio" name="horario">Nocturno
+            <input type="radio" name="horario">Mixto
+        </label>
+
+        <h3>Acepta terminos</h3>
+        <label>
+            <input type="checkbox"> Acepta terminos y condiciones
+        </label>
+        <br>
+        <br>
+        <h3>Deja tu comentario</h3>
+        <textarea cols="50", rows="5"></textarea>
+        <br>
+        <!-- <label for="contraseña">Ingresa la contraseña</label>
+        <input type="password" placeholder="password" required id="apellido">
+        <br>
+        <br> -->
+
+        <!-- <label for="Color">Selecciona un color</label>
+        <input type="color" id="color">
+        <br>
+        <br> -->
+
+        <!-- <input type="number"> -->
+
+        <!-- <input type="datetime-local"> -->
+
+        <input type="submit">
+    </form>
+</body>
+</html>
